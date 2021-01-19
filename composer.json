@@ -1,0 +1,9 @@
+{
+  "name": "ynov/objet",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
