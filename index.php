@@ -28,6 +28,12 @@ function getProducts(): array
 $dress = new Clothing();
 var_dump($dress);
 
+$dress
+  ->setSize(39)
+  ->setPrice(158);
+
+var_dump($dress);
+
 $book = new Book();
 var_dump($book);
 
